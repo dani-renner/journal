@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Journal</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">  
+  <h3>Welcome to your journal!</h3>
+    </div>
+  <form id="journal-entries">
+    <label for="diary-entry">Your entry:</label><br>
+    <textarea id="diary-entry" name="Text1" cols="40" rows="5"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="output">
+    <p>You typed <span id="wordOutput"></span> words!</p>
+    <p>You typed <span id="vowelOutput"></span> vowels!</p>
+    <p>You typed <span id="consonantOutput"></span> consonants!</p>
+    <p>First Sentence <span id="sentenceOutput"></span></p>
+  </div>
+  </div>
+
+</body>
+</html>
